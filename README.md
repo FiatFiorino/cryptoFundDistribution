@@ -25,27 +25,43 @@ before deploying the smart contract.
 Once deployed to the Mumbai TestNet the contract will need to be configured for 
 distribution.
 
-Step One:
+###### Step One:
 verify the smart contract on the TestNet.
 
-Step Two:
+###### Step Two:
 lock the smart contract to the same wallet that published it. This is done via the lock
-button/function on the smart contract "write" page. You will be asked to sign this 
+button/function on the smart contract "write" tab. You will be asked to sign this 
 transaction using MetaMask.
 
-Step Three:
+###### Step Three:
 Now it's time so set up the distribution of the tokens based upon percentages. This
 smart contract uses the following logic 1% = 10.
 
-  For Example
+  ###### For Example
   If I wanted to send 15% to Wallet A, 25% to Wallet B and the remaining 60% to 
   Wallet C, I would do the following;
   
-  Using the "write contract" page, scroll down to "addAccount"
-  Enter the public key of Wallet A in the * _addr (address)* field,
-  150 in the *_pctx10 (uint256)* field and
+  Using the "write contract" tab, scroll down to "addAccount"
+  Enter the public key of Wallet A in the *_addr (address)* field,
+  150 in the *_pctx10 (uint256)* field and finally "0" in the 
+  *_evenStart (bool)* filed.
   
+  Click "write", approve it using the same wallet you used to lock the smart contract
+  and finally click on the "verfiy the transaction button" to confirm it's been
+  successful.
+  
+This process can be repeated upto 5 times as this contract can only distribute to a 
+maximum of five wallets.
 
+###### Step Four:
+To Distribute, click the "write" button on the "write contract" tab within the distribute 
+section. This will need to be approved using the wallet locked to the contract in step two.
+
+
+###### Step Five:
+Click on the "write" button within widthdraw section. This again will need to be approved 
+using the wallet initially "locked" to the smart contract and viola. The distribution of 
+proceeds will take place.
 
 
 ---
