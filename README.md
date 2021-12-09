@@ -29,11 +29,6 @@ distribution.
 verify the smart contract on the TestNet.
 
 ###### Step Two:
-lock the smart contract to the same wallet that published it. This is done via the lock
-button/function on the smart contract "write" tab (This is a sub menu of the "Contract" tab). You will be asked to sign this 
-transaction using MetaMask.
-
-###### Step Three:
 Now it's time so set up the distribution of the tokens based upon percentages. This
 smart contract uses the following logic 1% = 10.
 
@@ -53,16 +48,20 @@ smart contract uses the following logic 1% = 10.
 This process can be repeated upto 5 times as this contract can only distribute to a 
 maximum of five wallets.
 
-###### Step Four:
+###### Step Three:
 To Distribute, click the "write" button on the "write contract" tab within the distribute 
 section. This will need to be approved using the wallet locked to the contract in step two.
 
-
-###### Step Five:
+###### Step Four:
 Click on the "write" button within widthdraw section. This again will need to be approved 
 using the wallet initially "locked" to the smart contract and viola. The distribution of 
 proceeds will take place.
 
+
+###### Step Five:
+Lock the smart contract to the same wallet that published it. This is done via the lock
+button/function on the smart contract "write" tab (This is a sub menu of the "Contract" tab). You will be asked to sign this 
+transaction using MetaMask.
 
 ---
 
