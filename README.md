@@ -83,4 +83,5 @@ ExpExponentCleanup (medium/high-severity), NestedArrayFunctionCallDecoder
 
 ###### Working demo 
 (Mumbai TestNet: https://mumbai.polygonscan.com/address/0xf22790d6dbd68f6f6d41e9150871fdaab5baa6ff)
+When checking the token recipients wallet for funds - check "Internal Txns".
 
