@@ -30,7 +30,7 @@ verify the smart contract on the TestNet.
 
 ###### Step Two:
 lock the smart contract to the same wallet that published it. This is done via the lock
-button/function on the smart contract "write" tab. You will be asked to sign this 
+button/function on the smart contract "write" tab (This is a sub menu of the "Contract" tab). You will be asked to sign this 
 transaction using MetaMask.
 
 ###### Step Three:
