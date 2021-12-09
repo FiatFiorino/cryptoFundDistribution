@@ -81,8 +81,10 @@ ExpExponentCleanup (medium/high-severity), NestedArrayFunctionCallDecoder
 
 ---
 
-###### Working demo - Primary
+###### Working demo - Primary Token Flow
 (Mumbai TestNet: https://mumbai.polygonscan.com/address/0xf22790d6dbd68f6f6d41e9150871fdaab5baa6ff)
+###### Working demo - Secondary Token Flow
+(Mumbai TestNet: https://mumbai.polygonscan.com/address/0x68939d2b9bc8ec4fa554ac784f75f81046914057)
 
 When checking the token recipients wallet for funds - check "Internal Txns".
 This process is often known as "Token Fund Flow". This smart contract will 
