@@ -1,9 +1,9 @@
-# Crypto/Token Distribution Script
+## Crypto/Token Distribution Script
 
 This Smart contract has been designed to allow for the distribution of polygon tokens 
 (MATIC) to multiple wallets.
 
-# How it works
+###### How it works
 The contract needs to be compiled in an IDE, I use Remix (https://remix.ethereum.org/)
 Import the file tokenFundDistribution (or cut and paste the code).
 
@@ -16,7 +16,35 @@ The smart contract compiles with no errors.
 
 Once compiled it needs to be pushed to the TestNet.
 
-This is completed using the "Deploy and Run Transactions" tab within the ReMix IDE
+This is completed using the "Deploy and Run Transactions" tab within the ReMix IDE.
+The contract to be depolyed is called "RKPRIM - <yourfilename.sol>" I deployed it using
+Injected Web 3 (MetaMask). You'll need to add the Mumbai Polygon TestNet to MetaMask 
+before deploying the smart contract. 
+(https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+
+Once deployed to the Mumbai TestNet the contract will need to be configured for 
+distribution.
+
+Step One:
+verify the smart contract on the TestNet.
+
+Step Two:
+lock the smart contract to the same wallet that published it. This is done via the lock
+button/function on the smart contract "write" page. You will be asked to sign this 
+transaction using MetaMask.
+
+Step Three:
+Now it's time so set up the distribution of the tokens based upon percentages. This
+smart contract uses the following logic 1% = 10.
+
+  For Example
+  If I wanted to send 15% to Wallet A, 25% to Wallet B and the remaining 60% to 
+  Wallet C, I would do the following;
+  
+  Using the "write contract" page, scroll down to "addAccount"
+  Enter the public key of Wallet A in the * _addr (address)* field,
+  150 in the *_pctx10 (uint256)* field and
+  
 
 
 
