@@ -20,7 +20,8 @@ This is completed using the "Deploy and Run Transactions" tab within the ReMix I
 
 
 
----------------------------------------------------------------------------------------
+---
+
 `The compiler v0.4.11+commit.68ef5810 has the following known specific version warnings:
 
 The compiled contract might be susceptible to EmptyByteArrayCopy (medium-severity), 
@@ -34,4 +35,5 @@ ExpExponentCleanup (medium/high-severity), NestedArrayFunctionCallDecoder
 (medium-severity), ZeroFunctionSelector (very low-severity), DelegateCallReturnValue 
 (low-severity), ECRecoverMalformedInput (medium-severity), SkipEmptyStringLiteral 
 (low-severity) Solidity Compiler Bugs.`
----------------------------------------------------------------------------------------
+
+
